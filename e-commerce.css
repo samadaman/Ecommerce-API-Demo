@@ -1,0 +1,250 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+@media (min-width:200px) and (max-width:638px){
+    .parent-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .list-row{
+        display: grid;
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+    .product{
+        display: grid;
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.list-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+}
+select{
+    font-size: 21px;
+    border: none;
+    margin-top: 3%;
+}
+.list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.list a{
+    text-decoration: none;
+    color: rgb(134, 128, 128);
+}
+.heart{
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+.add{
+    padding-right: 5%;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav input{
+    height: 50px;
+    width: 270px;
+    border-radius: 10px;
+    border: none;
+    color: grey;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 2%;
+    border: 1px solid grey;
+}
+nav h2{
+    margin-left: 1%;
+}
+nav a{
+    margin-left: 2%;
+    margin-right: 4%;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(134, 128, 128);
+}
+nav select{
+    font-size: medium;
+    margin-bottom: 38px;
+}
+nav button{
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid grey;
+    margin-left: 2%;
+}
+.number{
+    position: relative;
+    bottom: 25px;
+    right: 15px;
+    background-color: skyblue;
+    border-radius: 50px;
+    padding: 4px;
+    color: white;
+}
+.categories{
+    padding: 5%;
+}
+
+.categories p{
+    font-size: larger;
+    font-weight: bold;
+    height: 0px;
+}
+.categories h1{
+    font-size: 40px;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 5%;
+    padding-bottom: 90px;
+}
+.child11{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px
+}
+.child11 img{
+    float: right;
+}
+
+.Headphone{
+    margin-left: 20px;
+}
+.child1111{
+    height: 600px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 8%;
+    border-radius: 10px
+
+}
+.child1111 img{
+    float: right;
+}
+.child22{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 8%;
+    border-radius: 10px
+
+}
+.child2222{
+    height: 600px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px
+
+}
+.child2222 img{
+    float: right;
+}
+.child33{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px
+
+}
+.child33 img{
+    float: right;
+    
+}
+.child33 h1{
+    margin-left: 20px;
+}
+.child3333{
+    height: 600px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 8%;
+    border-radius: 10px
+
+}
+.child3333 img{
+    float: right;
+    margin-right: 40px;
+}
+.child3333 h1{
+    margin-left: 20px;
+}
+.headlamp{
+    margin-left: 20px;
+}
+.headfurniture{
+    margin-left: 20px;
+}
+.headcloth{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.clothimg{
+    float: right;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 4%;
+}
+.wirekit{
+    display: flex;
+}
+.footer1 img{
+    margin-left: 5%;
+}
+.footer p{
+    color: grey;
+    font-size: large;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    margin-top: 3%;
+    text-decoration: none;
+    color: grey;
+    font-size: large;
+}
+.footer3 p{
+    padding-top: 2%;
+    word-spacing: 4px;
+    font-size: large;
+}
+.footer4{
+    padding-right: 40%;
+}
+.footer4 button{
+    margin-top: 8%;
+    padding: 6px;
+    border: none;
+    border: 1px grey;
+    color: grey;
+    border-radius: 5px;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 5%;
+    color: grey;
+}
+.pvtltd{
+    padding-right: 10%;
+    text-align: end;
+}
+
